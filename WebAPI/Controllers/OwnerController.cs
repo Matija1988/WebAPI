@@ -78,7 +78,22 @@ namespace WebAPI.Controllers
 
             return NotFound("No owner with id " + id + " in database!");
         }
+
+        [HttpGet]
+        [Route("FindOwnerById/{id:int}")]
+        public IActionResult FindById(int id) 
+        { 
+            var ownerFromList = DataInit._owners.Find(x => x.Id == id);
+
+            if (ownerFromList == null) 
+            {
+                return NotFound();
+            
+            }
+
+            return Ok(ownerFromList);
         
+        }
 
     }
 }
