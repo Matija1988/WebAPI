@@ -53,12 +53,31 @@ namespace WebAPI.Controllers
             }
             var ownerFromList = DataInit._owners.Find(x => x.Id == id);
 
+            if(ownerFromList == null)
+            {
+                return NotFound("No owner with id " + id + " in database!");
+            }
+
             ownerFromList.Id = owner.Id;
             ownerFromList.Name = owner.Name;
             
             return Ok();
         }
 
+        [HttpDelete]
+        [Route("DeleteOwner/{id:int}")]
+        public IActionResult Delete(int id) 
+        { 
+            var ownerToDelete = DataInit._owners.Find(x =>x.Id == id);
+
+            if (ownerToDelete != null)
+            {
+                DataInit._owners.Remove(ownerToDelete);
+                return Ok();
+            }
+
+            return NotFound("No owner with id " + id + " in database!");
+        }
         
 
     }
