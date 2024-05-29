@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitRepo\\WebAPI\\WebAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\model\\abstractentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:model\\abstractentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\model\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:model\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\datainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:datainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\model\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:model\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|c:\\gitrepo\\webapi\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7B0CF8C6-65CE-48E9-81F1-CAEADAEC5CE9}|WebAPI.csproj|solutionrelative:webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +58,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OwnerController.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Controllers\\OwnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Controllers\\OwnerController.cs",
+              "RelativeToolTip": "Controllers\\OwnerController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T08:46:22.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataInit.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\DataInit.cs",
+              "RelativeDocumentMoniker": "DataInit.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\DataInit.cs",
+              "RelativeToolTip": "DataInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T08:24:48.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:55:28.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\Owner.cs",
+              "RelativeDocumentMoniker": "Model\\Owner.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\Owner.cs",
+              "RelativeToolTip": "Model\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:53:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:52:38.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbstractEntity.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\AbstractEntity.cs",
+              "RelativeDocumentMoniker": "Model\\AbstractEntity.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\AbstractEntity.cs",
+              "RelativeToolTip": "Model\\AbstractEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:52:24.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\IEntity.cs",
+              "RelativeDocumentMoniker": "Model\\IEntity.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Model\\IEntity.cs",
+              "RelativeToolTip": "Model\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:52:02.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T07:17:32.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T07:17:25.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebAPI.http",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\WebAPI.http",
+              "RelativeDocumentMoniker": "WebAPI.http",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\WebAPI.http",
+              "RelativeToolTip": "WebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-29T07:17:05.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:17:01.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebAPI",
+              "DocumentMoniker": "C:\\GitRepo\\WebAPI\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI.csproj",
+              "ToolTip": "C:\\GitRepo\\WebAPI\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-29T07:16:57.197Z",
+              "EditorCaption": ""
             }
           ]
         }
