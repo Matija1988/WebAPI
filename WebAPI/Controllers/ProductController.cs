@@ -39,11 +39,11 @@ namespace WebAPI.Controllers
 
             int productId = product.Id;
 
-            DataInit._products.ForEach(x => { if (x.Id == productId) 
-                {
-                    productId++;
-                }
-            });
+
+            if (DataInit._products.Max(p => p.Id) == productId) 
+            {
+                productId++;
+            }
 
             product.Id = productId;
 
@@ -69,7 +69,14 @@ namespace WebAPI.Controllers
                 return NotFound();
             }
 
-            productFromList.Id = product.Id;
+            int productID = product.Id;
+
+            if (DataInit._products.Last().Id == productID) 
+            { 
+                productID++;
+            };
+
+            productFromList.Id = productID;
             productFromList.Name = product.Name;
             productFromList.Description = product.Description;
             productFromList.Owner = product.Owner;
