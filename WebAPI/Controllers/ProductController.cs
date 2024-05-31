@@ -1,40 +1,67 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using System.Runtime.InteropServices;
+using Newtonsoft.Json;
+using System.Net;
+using System.Text;
+using System.Web.Http;
 using WebAPI.Model;
-using WebAPI.Utilities;
+using static System.Net.Mime.MediaTypeNames;
+using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
+using HttpDeleteAttribute = Microsoft.AspNetCore.Mvc.HttpDeleteAttribute;
+using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
+using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
+using HttpPutAttribute = Microsoft.AspNetCore.Mvc.HttpPutAttribute;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ProductController : ControllerBase
+    public class ProductController : ApiController
     {
        
-
+         
         public ProductController()
         {
            
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        [Route("getallproducts")]
+        public async Task<HttpResponseMessage> Get()
         {
             if (DataInit._products == null)
             {
-                return NotFound();
+                return new HttpResponseMessage(HttpStatusCode.NotFound);
             }
 
-            return Ok(DataInit._products);
+            var data = DataInit._products;
+
+            var json = JsonConvert.SerializeObject(data);
+
+            HttpContent stringContent = new StringContent(json);
+
+            System.Diagnostics.Debug.WriteLine("Test json: " + json);
+            System.Diagnostics.Debug.WriteLine("Test string:" + stringContent);
+
+            var response = new HttpResponseMessage(HttpStatusCode.OK)
+            {
+                Content = stringContent
+            };
+
+            System.Diagnostics.Debug.WriteLine("Test response: " + response);
+
+
+            return response; 
         }
 
         [HttpPost]
-
-        public async Task<IActionResult> Post([FromBody] Product product)
+        [Route("createproduct")]
+        public HttpResponseMessage Post([FromBody] Product product)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return new HttpResponseMessage(HttpStatusCode.BadRequest);
             }
 
             int productId = product.Id;
@@ -49,24 +76,24 @@ namespace WebAPI.Controllers
 
             DataInit._products.Add(product);
 
-            return Ok(ResponseMessages.EntityCreated());
+            return new HttpResponseMessage(HttpStatusCode.OK);
 
         }
 
         [HttpPut]
         [Route("UpdateProduct/{id:int}")]
-        public async Task<IActionResult> Put([FromBody] Product product, int id)
+        public  HttpResponseMessage Put([FromBody] Product product, int id)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return new HttpResponseMessage(HttpStatusCode.BadRequest);
             }
 
             var productFromList =  DataInit._products.Find(x => x.Id == id);   
 
             if(productFromList == null)
             {
-                return NotFound();
+                return new HttpResponseMessage(HttpStatusCode.NotFound);
             }
 
             int productID = product.Id;
@@ -81,39 +108,39 @@ namespace WebAPI.Controllers
             productFromList.Description = product.Description;
             productFromList.Owner = product.Owner;
 
-            return Ok();
+            return new HttpResponseMessage(HttpStatusCode.OK);
 
         }
 
         [HttpDelete]
         [Route("DeleteProduct/{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
             var productFromList = DataInit._products.Find(x => x.Id == id);
 
             if (productFromList is null)
             {
-                return NotFound();
+                return new HttpResponseMessage(HttpStatusCode.NotFound);
             }
 
             DataInit._products.Remove(productFromList);
 
-            return Ok();
+            return new HttpResponseMessage(HttpStatusCode.OK);
 
         }
         [HttpGet]
         [Route("FindProductById/{id:int}")]
 
-        public async Task<IActionResult> GetById(int id)
+        public  HttpResponseMessage GetById(int id)
         {
             var productFromList = DataInit._products.Find(x=> x.Id == id);
 
             if (productFromList is null) 
             {
-                return NotFound();
+                return new HttpResponseMessage(HttpStatusCode.NotFound);
             }
 
-            return Ok(productFromList);
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
 
